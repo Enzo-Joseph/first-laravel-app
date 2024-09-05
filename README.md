@@ -10,5 +10,5 @@ The blog contains 2 example articles using components from Tailwind.
 <p align="center"><img src="resources/img/Blog Page.png" width="800" alt="Laravel Logo"></p>
 The about page contains a small description of me.
 <p align="center"><img src="resources/img/About Page.png" width="800" alt="Laravel Logo"></p>
-Finally, the contact page has ways to contact me, via email or on social media.
+Finally, the contact page has ways to contact me, via email or on social media with clickable logos
 <p align="center"><img src="resources/img/Contact Page.png" width="800" alt="Laravel Logo"></p>
