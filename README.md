@@ -8,6 +8,9 @@ The first page is the main page, with nothing special on it.
 <p align="center"><img src="resources/img/Home Page.png" width="800" alt="Laravel Logo"></p>
 The blog contains 2 example articles using components from Tailwind.
 <p align="center"><img src="resources/img/Blog Page.png" width="800" alt="Laravel Logo"></p>
+Each post is clickable to view it in more details in another page.
+<p align="center"><img src="resources/img/Post Page.png" width="800" alt="Laravel Logo"></p>
+
 The about page contains a small description of me.
 <p align="center"><img src="resources/img/About Page.png" width="800" alt="Laravel Logo"></p>
 Finally, the contact page has ways to contact me, via email or on social media with clickable logos
