@@ -8,7 +8,7 @@
         <div class="text-base text-gray-500">
             <a href="#">{{ $post['author'] }}</a> | {{ $post->created_at->diffForHumans() }}
         </div>
-        <p class="my-4 font-light">{{ $post['content'] }}</p>
+        <p class="my-4 font-light">{{ $post['body'] }}</p>
         <a href='/blog' class="font-medium text-blue-500 hover:underline">&laquo; Back</a>
     </article>
 </x-layout>

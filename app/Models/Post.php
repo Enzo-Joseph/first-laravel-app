@@ -8,6 +8,7 @@ use Illuminate\Support\Arr;
 
 class Post extends Model
 {
+    use hasFactory;
     protected $fillable = ['title', 'content', 'author'];
 }
 
