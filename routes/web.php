@@ -14,7 +14,13 @@ Route::get('/about', function () {
 });
 
 Route::get('/blog', function () {
-    return view('blog', ['title' => 'Blog Page', 'posts' => Post::all()]);
+    $posts = Post::latest();
+
+    if (request('search')) {
+        $posts->where('title', 'like', '%' . request('search') . '%');
+    }
+
+    return view('blog', ['title' => 'Blog Page', 'posts' => Post::filter(request(['search', 'category', 'author']))->latest()->get()]);
 });
 
 Route::get('/blog/{post:slug}', function (Post $post) {
