@@ -14,7 +14,6 @@ Route::get('/about', function () {
 });
 
 Route::get('/blog', function () {
-    // dd([PostController::class, 'index']);
     return view('blog', ['title' => 'Blog Page', 'posts' => Post::all()]);
 });
 
