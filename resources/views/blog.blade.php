@@ -1,7 +1,7 @@
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot>
 
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:px-6">
+    {{-- <div class="py-8 px-4 mx-auto max-w-screen-xl lg:px-6">
         <div class="mx-auto max-w-screen-md sm:text-center">
             <form>
                 <div class="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
@@ -20,7 +20,7 @@
                 </div>
             </form>
         </div>
-    </div>
+    </div> --}}
 
     {{ $posts->links() }}
 
